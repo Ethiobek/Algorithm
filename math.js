@@ -25,7 +25,18 @@ function isPrime(n){
     return true;
 }
 
+function isPowerOfTwo(n){
+    while(n>1){
+        if(n%2!==0){
+            return false;
+        }
+        n=n/2;  
+    }
+    return true;
+}
+
 // Outputs
 console.log(fibonacci(7))
 console.log(factorial(3))
 console.log(isPrime(1))
+console.log(isPowerOfTwo(16))
