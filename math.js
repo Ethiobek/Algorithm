@@ -5,4 +5,14 @@ function fibonacci(n){
     }
     return list;
 }
+
+function factorial(n){
+    for(i=n-1;i>1;i--){
+        n=n*i;
+    }
+    return n;
+}
+
+// Outputs
 console.log(fibonacci(7))
+console.log(factorial(3))
